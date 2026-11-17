@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Al Madina Super Store — your neighbourhood shopping destination at Apollo Towers, E-11, Islamabad.">
+  <title>Al Madina Super Store | E-11 Islamabad</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar"><span>YOUR NEIGHBOURHOOD SHOPPING DESTINATION</span><span>E-11 / ISLAMABAD</span></div>
+  <header class="header">
+    <a class="logo" href="#home"><span class="logo-icon">م</span><span>AL MADINA <small>SUPER STORE</small></span></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#home">Home</a><a href="#shop">Shop items</a><a href="#about">About us</a><a href="#highlights">Visit</a><a href="#reviews">Reviews</a>
+    </nav>
+    <a class="nav-call" href="tel:+923146004587">Call the store <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="pill"><span></span> YOUR LOCAL SHOPPING PLACE</div>
+        <h1>Everyday needs.<br><em>Made easy.</em></h1>
+        <p class="hero-text">A convenient neighbourhood shopping stop at Apollo Towers, E-11 Islamabad. Drop by and discover a friendly local shopping experience.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" target="_blank" rel="noopener" href="https://maps.app.goo.gl/xhe14ckdScBaUCvp7">Get directions <span>↗</span></a>
+          <a class="btn btn-outline" href="tel:+923146004587">Call +92 314 6004587</a>
+        </div>
+        <div class="hero-rating"><div class="stars">★★★★★</div><strong>5.0 / 5</strong><span>Based on 4 Google reviews</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="art-circle circle-one"></div><div class="art-circle circle-two"></div>
+        <div class="photo-main"><img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1400&q=85" alt="Fresh grocery produce in a market"></div>
+        <div class="photo-small"><img src="https://images.unsplash.com/photo-1543083477-4f785aeafaa9?auto=format&fit=crop&w=700&q=85" alt="Fresh fruit and vegetables"></div>
+        <div class="floating-note"><span class="note-icon">✳</span><span><b>LOCAL & CONVENIENT</b><small>Right in your neighbourhood</small></span></div>
+        <span class="art-caption">AL MADINA · E-11 ISLAMABAD</span>
+      </div>
+      <div class="hero-bottom"><span>APOLLO TOWERS · STREET 15</span><span>WELCOME IN</span></div>
+    </section>
+
+    <section class="info-strip">
+      <div><span class="strip-icon">★</span><p><b>5.0 RATING</b><small>Customer reviewed</small></p></div>
+      <div><span class="strip-icon">⌖</span><p><b>CONVENIENT LOCATION</b><small>Apollo Towers, E-11/4</small></p></div>
+      <div><span class="strip-icon">☎</span><p><b>GIVE US A CALL</b><small>+92 314 6004587</small></p></div>
+    </section>
+
+
+    <section class="shop-section section" id="shop">
+      <div class="section-label">01 / WHAT YOU CAN FIND</div>
+      <div class="shop-heading">
+        <div><h2>Everyday essentials,<br><em>all in one place.</em></h2><p class="shop-intro">Browse a sample of the grocery and household items commonly found in a neighbourhood super store.</p></div>
+        <div class="shop-search"><span>⌕</span><input id="productSearch" type="search" placeholder="Search items..." aria-label="Search products"></div>
+      </div>
+      <div class="category-filters" role="group" aria-label="Filter products">
+        <button class="filter-btn active" data-filter="all">All items</button>
+        <button class="filter-btn" data-filter="fresh">Fresh food</button>
+        <button class="filter-btn" data-filter="pantry">Pantry</button>
+        <button class="filter-btn" data-filter="drinks">Drinks</button>
+        <button class="filter-btn" data-filter="snacks">Snacks</button>
+        <button class="filter-btn" data-filter="home">Home essentials</button>
+        <button class="filter-btn" data-filter="personal">Personal care</button>
+      </div>
+      <div class="product-grid" id="productGrid">
+        <article class="product-card" data-category="fresh" data-name="fresh tomatoes">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1546094096-0df4bcaaa337?auto=format&fit=crop&w=700&q=85" alt="Fresh red tomatoes"><span class="product-tag">Fresh food</span></div>
+          <div class="product-info"><h3>Fresh Tomatoes</h3><p>Fresh produce</p><strong>Seasonal price</strong></div>
+        </article>
+        <article class="product-card" data-category="fresh" data-name="potatoes">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=700&q=85" alt="Potatoes"><span class="product-tag">Fresh food</span></div>
+          <div class="product-info"><h3>Potatoes</h3><p>Everyday vegetable</p><strong>Seasonal price</strong></div>
+        </article>
+        <article class="product-card" data-category="fresh" data-name="onions">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&w=700&q=85" alt="Fresh onions"><span class="product-tag">Fresh food</span></div>
+          <div class="product-info"><h3>Onions</h3><p>Kitchen staple</p><strong>Seasonal price</strong></div>
+        </article>
+        <article class="product-card" data-category="fresh" data-name="bananas">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=700&q=85" alt="Bananas"><span class="product-tag">Fresh food</span></div>
+          <div class="product-info"><h3>Bananas</h3><p>Fresh fruit</p><strong>Seasonal price</strong></div>
+        </article>
+        <article class="product-card" data-category="fresh" data-name="apples">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=700&q=85" alt="Red apples"><span class="product-tag">Fresh food</span></div>
+          <div class="product-info"><h3>Apples</h3><p>Fresh fruit</p><strong>Seasonal price</strong></div>
+        </article>
+        <article class="product-card" data-category="pantry" data-name="basmati rice">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=700&q=85" alt="Rice grains in a bowl"><span class="product-tag">Pantry</span></div>
+          <div class="product-info"><h3>Basmati Rice</h3><p>Rice & grains</p><strong>Ask for size</strong></div>
+        </article>
+        <article class="product-card" data-category="pantry" data-name="flour atta">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1627485937980-221c88ac04f9?auto=format&fit=crop&w=700&q=85" alt="Flour in a bowl"><span class="product-tag">Pantry</span></div>
+          <div class="product-info"><h3>Wheat Flour (Atta)</h3><p>Daily kitchen essential</p><strong>Ask for size</strong></div>
+        </article>
+        <article class="product-card" data-category="pantry" data-name="cooking oil">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=700&q=85" alt="Cooking oil"><span class="product-tag">Pantry</span></div>
+          <div class="product-info"><h3>Cooking Oil</h3><p>Cooking essentials</p><strong>Ask for brand</strong></div>
+        </article>
+        <article class="product-card" data-category="pantry" data-name="sugar">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1581441363689-1f3c3c414635?auto=format&fit=crop&w=700&q=85" alt="White sugar"><span class="product-tag">Pantry</span></div>
+          <div class="product-info"><h3>Sugar</h3><p>Kitchen staple</p><strong>Ask for size</strong></div>
+        </article>
+        <article class="product-card" data-category="pantry" data-name="tea">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=700&q=85" alt="Tea leaves and tea cup"><span class="product-tag">Pantry</span></div>
+          <div class="product-info"><h3>Tea</h3><p>Tea-time favourite</p><strong>Ask for brand</strong></div>
+        </article>
+        <article class="product-card" data-category="pantry" data-name="eggs">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1506976785307-8732e854ad03?auto=format&fit=crop&w=700&q=85" alt="Fresh eggs"><span class="product-tag">Pantry</span></div>
+          <div class="product-info"><h3>Eggs</h3><p>Breakfast essential</p><strong>Ask for tray size</strong></div>
+        </article>
+        <article class="product-card" data-category="pantry" data-name="bread">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=85" alt="Fresh bread loaves"><span class="product-tag">Pantry</span></div>
+          <div class="product-info"><h3>Bread</h3><p>Bakery item</p><strong>Ask for brand</strong></div>
+        </article>
+        <article class="product-card" data-category="drinks" data-name="milk">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=700&q=85" alt="Glass of milk"><span class="product-tag">Drinks</span></div>
+          <div class="product-info"><h3>Milk</h3><p>Fresh & packaged options</p><strong>Ask for brand</strong></div>
+        </article>
+        <article class="product-card" data-category="drinks" data-name="orange juice">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=700&q=85" alt="Orange juice"><span class="product-tag">Drinks</span></div>
+          <div class="product-info"><h3>Juice</h3><p>Fruit drinks</p><strong>Ask for flavour</strong></div>
+        </article>
+        <article class="product-card" data-category="drinks" data-name="bottled water">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=700&q=85" alt="Bottled water"><span class="product-tag">Drinks</span></div>
+          <div class="product-info"><h3>Bottled Water</h3><p>Hydration essentials</p><strong>Ask for size</strong></div>
+        </article>
+        <article class="product-card" data-category="drinks" data-name="soft drinks">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1554866585-cd94860890b7?auto=format&fit=crop&w=700&q=85" alt="Chilled soft drink cans"><span class="product-tag">Drinks</span></div>
+          <div class="product-info"><h3>Soft Drinks</h3><p>Chilled refreshments</p><strong>Ask for brand</strong></div>
+        </article>
+        <article class="product-card" data-category="snacks" data-name="potato chips">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1566478989037-eec170784d0b?auto=format&fit=crop&w=700&q=85" alt="Potato chips"><span class="product-tag">Snacks</span></div>
+          <div class="product-info"><h3>Potato Chips</h3><p>Crunchy snacks</p><strong>Ask for flavour</strong></div>
+        </article>
+        <article class="product-card" data-category="snacks" data-name="biscuits cookies">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=700&q=85" alt="Biscuits and cookies"><span class="product-tag">Snacks</span></div>
+          <div class="product-info"><h3>Biscuits & Cookies</h3><p>Tea-time snacks</p><strong>Ask for brand</strong></div>
+        </article>
+        <article class="product-card" data-category="snacks" data-name="chocolate">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&w=700&q=85" alt="Chocolate bars"><span class="product-tag">Snacks</span></div>
+          <div class="product-info"><h3>Chocolate</h3><p>Sweet treats</p><strong>Ask for brand</strong></div>
+        </article>
+        <article class="product-card" data-category="home" data-name="dishwashing liquid">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&w=700&q=85" alt="Dishwashing and cleaning supplies"><span class="product-tag">Home essentials</span></div>
+          <div class="product-info"><h3>Dishwashing Liquid</h3><p>Kitchen cleaning</p><strong>Ask for brand</strong></div>
+        </article>
+        <article class="product-card" data-category="home" data-name="laundry detergent washing powder">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?auto=format&fit=crop&w=700&q=85" alt="Laundry detergent"><span class="product-tag">Home essentials</span></div>
+          <div class="product-info"><h3>Laundry Detergent</h3><p>Washing powder & liquid</p><strong>Ask for brand</strong></div>
+        </article>
+        <article class="product-card" data-category="home" data-name="tissue paper">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=700&q=85" alt="Household paper products"><span class="product-tag">Home essentials</span></div>
+          <div class="product-info"><h3>Tissue Paper</h3><p>Everyday household use</p><strong>Ask for pack size</strong></div>
+        </article>
+        <article class="product-card" data-category="personal" data-name="shampoo">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=700&q=85" alt="Personal care shampoo bottles"><span class="product-tag">Personal care</span></div>
+          <div class="product-info"><h3>Shampoo</h3><p>Hair care</p><strong>Ask for brand</strong></div>
+        </article>
+        <article class="product-card" data-category="personal" data-name="soap">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?auto=format&fit=crop&w=700&q=85" alt="Soap bars"><span class="product-tag">Personal care</span></div>
+          <div class="product-info"><h3>Bathing Soap</h3><p>Daily personal care</p><strong>Ask for brand</strong></div>
+        </article>
+        <article class="product-card" data-category="personal" data-name="toothpaste toothbrush">
+          <div class="product-image"><img loading="lazy" src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=700&q=85" alt="Toothbrush and toothpaste"><span class="product-tag">Personal care</span></div>
+          <div class="product-info"><h3>Oral Care</h3><p>Toothpaste & toothbrushes</p><strong>Ask for brand</strong></div>
+        </article>
+      </div>
+      <p class="catalog-note">Product photos are illustrative. This is a sample catalogue, not a live inventory or price list. Please call the store to confirm availability, brands and prices.</p>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-label">02 / ABOUT THE STORE</div>
+      <div class="about-grid">
+        <div><h2>A familiar stop<br>in <em>your neighbourhood.</em></h2></div>
+        <div class="about-copy"><p>Al Madina Super Store is located at Apollo Towers on Street 15, near Apollo Heights in E-11/4, Islamabad.</p><p>Whether you are nearby or planning a visit, find the store easily, check the details below and get in touch directly.</p><a class="under-link" href="https://maps.app.goo.gl/xhe14ckdScBaUCvp7" target="_blank" rel="noopener">Find us on Google Maps <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="visit section" id="highlights">
+      <div class="section-label">03 / PLAN YOUR VISIT</div>
+      <div class="visit-heading"><h2>Everything you need<br>to <em>find us.</em></h2><p>Save the details for your next visit<br>to Al Madina Super Store.</p></div>
+      <div class="visit-grid">
+        <article class="visit-card address-card"><div class="card-icon">⌖</div><span class="card-label">OUR LOCATION</span><h3>Visit the store</h3><p>MXWJ+JGR, Street 15, near Apollo Heights, Golra E 11/4, E-11, Islamabad, Pakistan.</p><a href="https://maps.app.goo.gl/xhe14ckdScBaUCvp7" target="_blank" rel="noopener">Open directions <b>↗</b></a></article>
+        <article class="visit-card hours-card"><div class="card-icon">◷</div><span class="card-label">STORE HOURS</span><h3>Opening time</h3><div class="hours-status"><span class="status-dot"></span> Listed as closed now</div><p class="hours-time">Opens at <strong>9:00 AM</strong></p><small>Closing time was not listed. Please call to confirm today's hours.</small></article>
+        <article class="visit-card phone-card"><div class="card-icon">☎</div><span class="card-label">GET IN TOUCH</span><h3>Talk to us</h3><p>Have a question before visiting? Give the store a call.</p><a href="tel:+923146004587" class="phone-number">+92 314 6004587</a><a href="tel:+923146004587" class="call-link">Call now <b>↗</b></a></article>
+      </div>
+    </section>
+
+    <section class="review-section section" id="reviews">
+      <div class="review-left"><div class="section-label">04 / CUSTOMER FEEDBACK</div><h2>Good words<br>from <em>the community.</em></h2><p>Visitors have shared positive experiences about Al Madina Super Store.</p><div class="big-rating"><strong>5.0</strong><div><div class="stars">★★★★★</div><small>4 Google reviews</small></div></div></div>
+      <div class="review-list">
+        <article class="review"><div class="review-top"><span class="avatar">S</span><div><b>Syed Iftikhar Shah</b><small>Google review · 8 months ago</small></div><span class="stars">★★★★★</span></div><p>“Highly recommend”</p></article>
+        <article class="review"><div class="review-top"><span class="avatar avatar-two">W</span><div><b>Syed Wali</b><small>Google review · 3 years ago</small></div><span class="stars">★★★★★</span></div><p>“Mashallah great shopping place”</p></article>
+        <article class="review"><div class="review-top"><span class="avatar avatar-three">M</span><div><b>Syeed Misbah</b><small>Google review · edited 6 years ago</small></div><span class="stars">★★★★★</span></div><p>“Nice location”</p></article>
+        <a class="all-reviews" href="https://www.google.com/maps/search/?api=1&query=Al+Madina+Super+Store%2C+E-11%2C+Islamabad" target="_blank" rel="noopener">See store on Google Maps <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="cta-content"><span>AL MADINA SUPER STORE · E-11</span><h2>We'll be happy<br>to <em>see you.</em></h2><a class="btn btn-light" target="_blank" rel="noopener" href="https://maps.app.goo.gl/xhe14ckdScBaUCvp7">Plan your visit <span>↗</span></a></div>
+      <div class="cta-decoration">م</div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="logo" href="#home"><span class="logo-icon">م</span><span>AL MADINA <small>SUPER STORE</small></span></a><span>APOLLO TOWERS · E-11/4 · ISLAMABAD</span><span>© <span id="year"></span> AL MADINA SUPER STORE</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
